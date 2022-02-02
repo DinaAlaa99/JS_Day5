@@ -11,9 +11,6 @@
         block.innerHTML = "alert";
     }
     function clearAlarm() {
-        hrs.val = 0;
-        min.val = 0;
-        sec.val = 0;
         var block = document.getElementsByClassName("block")[0];
         block.innerHTML = "clear alarm";
     }
